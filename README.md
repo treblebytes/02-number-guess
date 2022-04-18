@@ -6,7 +6,7 @@ I created a number guessing game based off the [Mozilla Developer Javascript doc
 
 I've expanded the functionality of the game to include checking for non-numbers as well as ineligible numbers (numbers below 0 or above 100).
 
-[Here's the site](https://maryanne-numberguess.netlify.app). Happy viewing!
+:boom: Live demo up as of 19 April 2022! [Here's the site](https://maryanne-numberguess.netlify.app). :boom:
 
-#### Credits:
+### Credits:
 Background image from [WallpaperCave](https://wallpapercave.com/w/uwp384208).
