@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">    
+    <title>Number Guesser</title>
+</head>
+<body>    
+    <!-- <div class="bg"></div> -->
+    <div class="wrapper"> 
+        <div class="header">
+            <h1>Number Guesser</h1>
+            <p><b>Can you guess the number (1-100, inclusive) in under 10 tries?</b></p>
+        </div> 
+    
+        <div class="gameBoard">
+            <p>Number of turns remaining: <span class="turns">10</span></p>
+            <form autocomplete="off">
+                <input type="text" id="guessBox" class="guessBox" name="user-guess" placeholder="Enter a number from 1-100 inclusive">
+                <input type="submit" value="Submit" class="submitButton" onclick="checkGuess()">
+            </form>
+            <p class="guesses reset"></p>
+            <p class="hint reset"></p> 
+        </div>  
+
+        <button class="restartButton" onclick="restartGame()">Restart</button>
+        
+    </div>
+                   
+    
+    </div>      
+    <script src="script.js"></script>
+</body>
+</html>
